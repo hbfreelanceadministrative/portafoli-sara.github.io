@@ -455,9 +455,10 @@ h6 {
 }
 
 #hero h2 {
-  color: #6f6f6f;
+  color: #ffffff;
   margin: 10px 0 0 0;
   font-size: 22px;
+  text-align: center;
 }
 
 #hero .btn-about {
@@ -488,7 +489,7 @@ h6 {
 @media (max-width: 992px) {
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.2);
     position: absolute;
     bottom: 0;
     top: 0;

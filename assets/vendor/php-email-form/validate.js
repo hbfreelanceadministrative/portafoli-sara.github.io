@@ -56,11 +56,7 @@
       headers: {'X-Requested-With': 'XMLHttpRequest'}
     })
     .then(response => {
-      if( response.ok ) {
-      return response.text();
-        } else {
-        throw new Error(`${response.status} ${response.statusText} ${response.url}`); 
-      }
+      return response.text();    
     })
     .then(data => {
       thisForm.querySelector('.loading').classList.remove('d-block');

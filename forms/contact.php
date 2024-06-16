@@ -13,6 +13,14 @@ if(empty($_POST['name'])  		||
 	echo "No arguments Provided!";
 	return false;
    }
+
+( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
+    include( $php_email_form );
+  } else {
+    die( 'Unable to load the "PHP Email Form" Library!');
+  }
+
+
 	
 $name = $_POST['name'];
 $email_address = $_POST['email'];

@@ -1,6 +1,6 @@
 <?php
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'sharissa_87@hotmail.com';
+  $receiving_email_address = 'hbfreelance@hotmail.com';
 
 
 // check if fields passed are empty
